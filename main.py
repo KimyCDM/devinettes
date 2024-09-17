@@ -1,5 +1,11 @@
+"""
+Jeu de devinette
+Par Yul Kim
+Groupe:405
+on doit deviner le nombre
+"""
 import random
-mainmotor=True
+mainmotor = True
 while mainmotor:
     essaie = -1
     score = 0
@@ -26,5 +32,3 @@ while mainmotor:
         elif essaie < valeur:
             score = score + 1
             print('Mauvais choix, le nombre est plus gros que', essaie, ' ')
-
-
